@@ -4,18 +4,18 @@ Uses python, javascript, and html
 
 Required python packages:
 	Flask
-		-Used to host a server, handles requests
+		-Used to host a server, handles requests.
 	cvxopt
-		-Used for matrix representations and linear programming solvers
+		-Used for matrix representations and linear programming solvers.
 	numpy
-		-Used for random choice generation
+		-Used for random choice generation.
 		
 Html Packages (CDN):
-	Chart.js
-	Google Api
-	ajax
-	jquery
-	bootstrap
+	Chart.js,
+	Google Api,
+	ajax,
+	jquery,
+	bootstrap,
 	bootstrap-toggle
 
 Project Description:
@@ -25,11 +25,11 @@ Project Implementation
 	Consists of several steps:
 		Data aggregation. Using NYC taxi data, we generate supply and demand probabilities and sample serveral tours.
 
-		Optimization. Since the initial suppply demand is random, we solve a shorest paths problem on the OD pairs, modified by their zone weights, to make sure the original tour set makes sense
+		Optimization. Since the initial suppply demand is random, we solve a shorest paths problem on the OD pairs, modified by their zone weights, to make sure the original tour set makes sense.
 		SP1 - Tour generation. Formula described in paper, implemented in python.
 		Inverse Optimization Filter - not implemented.
 		SP2 - Diffusion assignment based on maximizing entropy.
-			Loops if necessary
+			Loops if necessary.
 		Sample the data for output data.
 
 	Website is used to query and visual the data:
@@ -38,7 +38,7 @@ Project Implementation
 Running:
 	In command line, navigate to folder.
 	Run main.py using python.
-		This will start a local server. Crtl+ c will interrupt it and shut it down
+		This will start a local server. Crtl+ c will interrupt it and shut it down.
 	Go to 'localhost:5000/display' to open the website.
 	
 Querying:
