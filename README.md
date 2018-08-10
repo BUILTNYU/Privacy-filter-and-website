@@ -3,19 +3,20 @@
 Uses python, javascript, and html
 
 Required python packages:
-	*Flask
-		*Used to host a server, handles requests
-	*cvxopt
-		*Used for matrix representations and linear programming solvers
-	*numpy
-		Used for random choice generation
+	Flask
+		-Used to host a server, handles requests
+	cvxopt
+		-Used for matrix representations and linear programming solvers
+	numpy
+		-Used for random choice generation
+		
 Html Packages (CDN):
-	*Chart.js
-	*Google Api
-	*ajax
-	*jquery
-	*bootstrap
-	*bootstrap-toggle
+	Chart.js
+	Google Api
+	ajax
+	jquery
+	bootstrap
+	bootstrap-toggle
 
 Project Description:
 	Implement a data filter for origin, destination pairs following the methodology of the paper.
